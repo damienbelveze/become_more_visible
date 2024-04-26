@@ -87,7 +87,7 @@ citation
 
 
 
-##  {background-iframe="https://digiboard.app/b/061c10526e4a2"}
+##  {background-iframe="https://damienbelveze.github.io/become_more_visible/exportcosmoscope.html"}
 
 :::{.notes}
 lien vers un board de la Digitale
