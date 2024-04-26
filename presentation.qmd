@@ -23,8 +23,8 @@ format:
           menu: 
             numbers: true
 
-bibliography: references.bib
-csl: apa.csl
+# bibliography: references.bib
+# csl: apa.csl
 ---
 
 #  {background-color="#fef1da"}
@@ -83,7 +83,7 @@ deuxième note
 citation
 :::
 
-:notebook: @referencebib
+<!-- :notebook: @referencebib -->
 
 
 
@@ -137,10 +137,11 @@ note
 
 > longue citation
 
-:notebook: @referencebib
+<!-- :notebook: @referencebib -->
 :::
 
 
+<!-- figures
 
 ## figures {.smaller}
 
@@ -151,6 +152,7 @@ note
 
 :::
 
+-->
 
 ## software used for this presentation
 
