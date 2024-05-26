@@ -1,0 +1,65 @@
+---
+title: "how to make your research more visible"
+subtitle: "publication strategy and ethical aspects"
+date: 12/04/2024
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        from: markdown+emoji
+        theme: [dark, monstyle.css]
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+# {background-color="#fef1da"}
+
+![where should I publish](images/initial_question.png){fig-alt="a toot posted in Mastodon by a researcher asking where she should publish her paper on analysis of Twitter data to explore the science reform community structure"}
+
+# {background-color="#fef1da"}
+
+::: {.incremental}
+- rejection rate
+- nepotistic journals
+- bibliodiversity
+- open science standards
+:::
+
+# journal finders {background-color="#fef1da"}
+
+![Bison built upon DOAJ and OpenCites](images/bison.png)
+[Bison](https://service.tib.eu/bison/)
+
+[Web of science journal finder](https://mjl.clarivate.com/home)
+
+[open journal matcher](https://openeconomics.zbw.eu/en/knowledgebase/open-journal-matcher/)
+
+try with an abstract
+
+# Science Reform ?
+
+- open access
+- methods and results transparency
+
+# Plan S : make scientific output immediately available
+
+- green open access with retention right strategy
+- gold open access
+- diamond open access
+
+# Green Open Access
