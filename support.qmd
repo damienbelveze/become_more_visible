@@ -40,7 +40,17 @@ format:
 - open science standards
 :::
 
-# journal finders {background-color="#fef1da"}
+:::{.notes}
+
+we will talk about rejection rates later, when we will say some words about predatory open access publishers
+:::
+
+## Where to register one study
+
+- Prospero for biology and Health Sciences
+
+
+## journal finders {background-color="#fef1da"}
 
 ![Bison built upon DOAJ and OpenCites](images/bison.png)
 [Bison](https://service.tib.eu/bison/)
@@ -49,17 +59,48 @@ format:
 
 [open journal matcher](https://openeconomics.zbw.eu/en/knowledgebase/open-journal-matcher/)
 
-try with an abstract
+[try AI tools such as Perplexity.ai](https://perplexity.ai)
 
-# Science Reform ?
 
-- open access
-- methods and results transparency
+# {background-color="#fef1da"}
 
-# Plan S : make scientific output immediately available
+You have just finished the [manuscript](title_abstract.html) of your paper. To which journals will you submit it ?
+
+- you do not have money to pay Article Processes Charges
+
+- your paper should be accessible to all without embargo once published
+
+
+# Plan S : make scientific output immediately available {background-color="#fef1da"}
 
 - green open access with retention right strategy
 - gold open access
 - diamond open access
 
-# Green Open Access
+# Green Open Access {background-color="#fef1da"}
+
+- [HAL](https://hal.sciences)
+- [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
+- *Loi pour une République Numérique*, 2016
+
+# traditional way of publishing
+
+- inflatation of subscription costs
+- 2012, Tim Gowers : "The cost of knowledge"
+- embargo periods
+
+# Gold Open Access {background-color="#fef1da"}
+
+- immediately open access
+- Gold should be more than "APC"
+- hybrid Open Access
+
+# Is it possible to publish your paper in these journals
+
+
+
+
+
+
+
+
