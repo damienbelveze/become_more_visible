@@ -15,12 +15,12 @@ record_types:
 link_types:
   undefined:
     stroke: simple
-    color: "000000"
-    #color: "#e1e1e1"
+    #color: "000000"
+    color: "#e1e1e1"
 references_as_nodes: false
 references_type_label: references
-#graph_background_color: "#ffffff"
-graph_background_color: "#fef1da"
+graph_background_color: "#ffffff"
+#graph_background_color: "#fef1da"
 graph_highlight_color: "#ff6a6a"
 graph_highlight_on_hover: true
 graph_text_size: 10
