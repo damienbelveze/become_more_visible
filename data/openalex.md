@@ -1,10 +1,10 @@
 ---
-title: OpenAlex
+title: Open Alex
 types:
   - "base bibliométrique"
 tags:
   - "bibliométrie"
-thumbnail: 
+thumbnail: openalex.jpg
 ---
 
 outil bibliométrique libre

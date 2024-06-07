@@ -16,3 +16,8 @@ HAL vous donne la possibilité de stocker toutes vos publications et leur code s
 Ce CV HAL peut être utilisé pour certifier un compte [[Mastodon]].
 
 L'équipe HAL et la Fondation Software Heritage ont conclu un accord pour qu'il devienne possible de déposer du code source dans HAL et de le pousser ensuite vers l'archive [[Software Heritage]].
+
+<span style="color:blue">
+- se créer un idHAL
+- se créer un CV HAL
+</span>.

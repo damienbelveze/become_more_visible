@@ -4,6 +4,6 @@ types:
   - "base bibliométrique"
 tags:
   - "bibliométrie"
-thumbnail: 
+thumbnail: scopus.jpg
 ---
 base de données citationnelle

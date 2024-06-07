@@ -3,7 +3,7 @@ title: DOI
 types:
   - identifiant unique
 tags:
-  - identifiant unique
+  - FAIR
 thumbnail: doi.png
 ---
 

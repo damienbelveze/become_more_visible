@@ -4,6 +4,8 @@ types:
   - document scientifique
 tags:
   - communication scientifique
+
+thumbnail: dataset.png
 ---
 
 blabla

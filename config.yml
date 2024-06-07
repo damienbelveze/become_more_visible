@@ -7,7 +7,7 @@ links_online: ""
 images_origin: "data/images/"
 export_target: "./export/"
 history: true
-focus_max: 2
+focus_max: 5
 record_types:
   undefined:
     fill: "#858585"
@@ -15,10 +15,12 @@ record_types:
 link_types:
   undefined:
     stroke: simple
-    color: "#e1e1e1"
+    color: "000000"
+    #color: "#e1e1e1"
 references_as_nodes: false
 references_type_label: references
-graph_background_color: "#ffffff"
+#graph_background_color: "#ffffff"
+graph_background_color: "#fef1da"
 graph_highlight_color: "#ff6a6a"
 graph_highlight_on_hover: true
 graph_text_size: 10
@@ -27,7 +29,7 @@ node_size_method: degree
 node_size: 10
 node_size_max: 20
 node_size_min: 3
-attraction_force: 200
+attraction_force: 600
 attraction_distance_max: 350
 attraction_vertical: 0
 attraction_horizontal: 0
