@@ -23,8 +23,8 @@ format:
           menu: 
             numbers: true
 
-#bibliography: references.bib
-#csl: apa.csl
+bibliography: biblio/cosma.bib
+csl: apa.csl
 ---
 
 # {background-color="#fef1da"}
@@ -45,9 +45,52 @@ format:
 we will talk about rejection rates later, when we will say some words about predatory open access publishers
 :::
 
-## Where to register one study
+# editorial bias and nepotistic reviews
 
-- Prospero for biology and Health Sciences
+"nepotistic or self promotion journals"
+
+- when the most prolific authors are also part of the editorial board
+- when you have kins or team mates in the editorial board
+
+## 
+::::{.columns}
+:::{.column width="50%"}
+![](images/NMNI.png)
+:::
+:::{.column width="50%"}
+![](images/raoult.png){ width="70%" }
+:::
+::::
+:::{.fragment}
+editor-in chief and 6 other board members work for him
+they authored together 44% of the published papers (2021) :notebook: @scanffSurveyBiomedicalJournals2021
+:::
+
+## why study registration
+
+:::{.incremental}
+- increase transparency
+- get feedback from the design of the study
+- reduce data or hypothesis manipulation risks
+:::
+:::{.notes}
+Side effects aren't known well. There are concerns regarding (in)flexibility, selection of topics easier to preregister, a leftover risk of cheating preregs, increases in costs and effort.
+:::
+
+## {background-color="#fef1da"}
+
+### Where to register one study
+
+
+:::{.fragment .fade-up}
+[Prospero](https://www.crd.york.ac.uk/prospero/) for biology and Health Sciences
+:::
+:::{.fragment .fade-up}
+[Zenodo](https://zenodo.org/) for every discipline
+:::
+:::{.fragment .fade-up}
+[OSF](https://osf.io/registries) for every discipline
+:::
 
 
 ## journal finders {background-color="#fef1da"}
@@ -62,7 +105,7 @@ we will talk about rejection rates later, when we will say some words about pred
 [try AI tools such as Perplexity.ai](https://perplexity.ai)
 
 
-# {background-color="#fef1da"}
+## {background-color="#fef1da"}
 
 You have just finished the [manuscript](title_abstract.html) of your paper. To which journals will you submit it ?
 
@@ -70,14 +113,55 @@ You have just finished the [manuscript](title_abstract.html) of your paper. To w
 
 - your paper should be accessible to all without embargo once published
 
+## {background-color="#fef1da"}
 
-# Plan S : make scientific output immediately available {background-color="#fef1da"}
+**should you deposit a preprint version of your work** ? 
+
+![](images/preprint.png)
+
+## {background-color="#fef1da"}
+
+**should you deposit a preprint version of your work ?**
+
+- is it possible to have a paper published in the *Bone & Joint Journal* after having deposited it on BioRXiv?
+
+- is it possible to have a paper published in the ACM *Journal on Experimental Algorithmics* after having deposited it on SSRN (owned by Elsevier)?
+
+- is it possible to have a paper published in the journal *Physical Review Fluids* after having deposited in an institutionnal preprint server? 
+
+
+## {background-color="#fef1da"}
+
+**should you deposit a preprint version of your work ?**
+
+::::{.incremental .r-fit-text}
+:::{style="color: #000"}
+is it possible to have a paper published in the *Bone & Joint Journal* after having deposited it on BioRXiv?
+:::
+:::{style="color: red"}
+- No, this journal does not publish papers whose submitted version can be found in any preprint server
+:::
+:::{style="color: #000"}
+is it possible to have a paper published in the ACM *Journal on Experimental Algorithmics* after having deposited it on SSRN (owned by Elsevier)?
+:::
+:::{style="color: red"}
+- only non-for-profit preprint servers are accepted by the journal's policy. Elsevier is a for profit company.
+:::
+:::{style="color: #000"}
+is it possible to have a paper published in the journal *Physical Review Fluids* after having deposited in an institutionnal preprint server? 
+:::
+:::{style="color: #10ae9b"}
+- any preprint server will be accepted
+:::
+::::
+
+## Plan S : make scientific output immediately available {background-color="#fef1da"}
 
 - green open access with retention right strategy
 - gold open access
 - diamond open access
 
-# Green Open Access {background-color="#fef1da"}
+## Green Open Access {background-color="#fef1da"}
 
 - [HAL](https://hal.sciences)
 - [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
@@ -85,7 +169,7 @@ You have just finished the [manuscript](title_abstract.html) of your paper. To w
 
 # traditional way of publishing
 
-- inflatation of subscription costs
+- inflation of subscription costs
 - 2012, Tim Gowers : "The cost of knowledge"
 - embargo periods
 
@@ -97,6 +181,8 @@ You have just finished the [manuscript](title_abstract.html) of your paper. To w
 
 # Is it possible to publish your paper in these journals
 
+
+# The three pillars of Open Science
 
 
 
