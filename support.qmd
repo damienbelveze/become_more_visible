@@ -61,25 +61,35 @@ we will talk about rejection rates later, when we will say some words about pred
 ![](images/raoult.png){ width="70%" }
 :::
 ::::
-:::{.fragment}
+:::{.fragment .fade-up}
 editor-in chief and 6 other board members work for him
 they authored together 44% of the published papers (2021) :notebook: @scanffSurveyBiomedicalJournals2021
 :::
 
-## why study registration
+## what's the point of registering a study
 
+::::{ .columns }
+:::{.column width="50%"}
+![](images/harking.jpg)
+:::
+:::{.column width="50%"}
 :::{.incremental}
 - increase transparency
 - get feedback from the design of the study
-- reduce data or hypothesis manipulation risks
+- reduce data or hypothesis manipulation risks (**harking**)
 :::
+:::
+::::
 :::{.notes}
+
+basically, study registration aims at limiting Harking (Hypothesis after Results Are Known). Harking is a scientific misconduct.
+
 Side effects aren't known well. There are concerns regarding (in)flexibility, selection of topics easier to preregister, a leftover risk of cheating preregs, increases in costs and effort.
 :::
 
 ## {background-color="#fef1da"}
 
-### Where to register one study
+### Where to register a study
 
 
 :::{.fragment .fade-up}
@@ -96,14 +106,15 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 ## journal finders {background-color="#fef1da"}
 
 ![Bison built upon DOAJ and OpenCites](images/bison.png)
-[Bison](https://service.tib.eu/bison/)
+:::{.incremental}
+- [Bison](https://service.tib.eu/bison/)
 
-[Web of science journal finder](https://mjl.clarivate.com/home)
+- [Web of science journal finder](https://mjl.clarivate.com/home)
 
-[open journal matcher](https://openeconomics.zbw.eu/en/knowledgebase/open-journal-matcher/)
+- [open journal matcher](https://openeconomics.zbw.eu/en/knowledgebase/open-journal-matcher/)
 
-[try AI tools such as Perplexity.ai](https://perplexity.ai)
-
+- [try AI tools such as Perplexity.ai](https://perplexity.ai)
+:::
 
 ## {background-color="#fef1da"}
 
@@ -123,12 +134,17 @@ You have just finished the [manuscript](title_abstract.html) of your paper. To w
 
 **should you deposit a preprint version of your work ?**
 
+:::{.incremental}
 - is it possible to have a paper published in the *Bone & Joint Journal* after having deposited it on BioRXiv?
 
 - is it possible to have a paper published in the ACM *Journal on Experimental Algorithmics* after having deposited it on SSRN (owned by Elsevier)?
 
 - is it possible to have a paper published in the journal *Physical Review Fluids* after having deposited in an institutionnal preprint server? 
+:::
 
+:::{.fragment .fade-up}
+[SherpaRomeo gives you the answer](https://www.sherpa.ac.uk/)
+:::
 
 ## {background-color="#fef1da"}
 
@@ -167,11 +183,58 @@ is it possible to have a paper published in the journal *Physical Review Fluids*
 - [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
 - *Loi pour une République Numérique*, 2016
 
-# traditional way of publishing
+# traditional way of publishing {background-color="#fef1da"}
 
+::::{.columns}
+:::{.column width="50%"}
+![](images/boycott_elsevier.png)
+:::
+:::{.column width="50%"}
+:::{.incremental}
 - inflation of subscription costs
 - 2012, Tim Gowers : "The cost of knowledge"
 - embargo periods
+:::
+:::
+::::
+
+:::{.notes}
+Tim Gowers 2012 Cost of knowledge protest against indecent Elsevier’s subscription rates
+Call to resign from positions in journal boards owned by Elsevier, call to refuse to review for Elsevier and equivalent majors of scientific publishing
+:::
+
+# {background-color="#fef1da"}
+
+2023 Total expenses : 
+
+::::{.incremental}
+::: {style="color: red"}
+- 1 496 848 €
+:::
+:::{style="color: red"}
+- about 1000 euros by researcher
+:::
+:::{style="color: black"}
+- average annual increase of subscription costs : 1-2 %
+:::
+:::{style="color: black"}
+- Deal cancellations : Springer (in 2018)
+:::
+:::{style="color: black"}
+- subscription fee for Science Direct only : 406 232 €
+:::
+::::
+
+
+# Green Open Access with embargoes {background-color="#fef1da"}
+
+Loi pour une République Numérique (article 30)
+(journal articles published with 50% by public funds)
+
+:::{.incremental}
+- STEM: 6 months
+- SHS: 12 months
+:::
 
 # Gold Open Access {background-color="#fef1da"}
 
@@ -179,13 +242,106 @@ is it possible to have a paper published in the journal *Physical Review Fluids*
 - Gold should be more than "APC"
 - hybrid Open Access
 
-# Is it possible to publish your paper in these journals
+# Licences
+
+![](images/licences.jpg)
 
 
-# The three pillars of Open Science
+# Retention right strategy {background-color="#fef1da"}
+
+:::{.incremental}
+- attribution of a CC-by licence to the submitted paper. 
+
+- usually followed by an explanatory letter to the publisher
+
+- Some of them negociate for an extra-fee (Article Development Charges)
+:::
+
+# Gold OA {background-color="#fef1da"}
+
+**When Gold means "a lot of money to pay as APC"**
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/APC.png)
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- APC (nature) : up to 9500 $
+- average (France, 2020) : 2488 € :notebook: @blanchardRetrospectiveProspectiveStudy2022
+- 2012 - 2022 APC costs (France) **X3**
+:::
+:::
+::::
+:::{.notes}
+APC cost rises three times more than inflation (triples between 2013 and 2022 according to Blanchard : 
+
+the total cost of APCs has tripled in the period 2013-2020. The major driver is the growth of articles in Gold OA journals, i.e. fully open access journals with APCs (without this growth, the APC cost would have been multiplied by 1,69 instead of 3)
+
+APC model lowers barriers to readers only to raise them for authors.
+(same things for publish and read models : some institutions can afford it, some not). 
+
+**Business models based on APCs and subscriptions are highly inequitable.**
+:::
 
 
+# {background-color="#fef1da"}
 
+**which way of publishing is possible / recommended**
+
+::::{.r-fit-text}
+:::{incremetal}
+- [Journal checker tool](https://journalcheckertool.org/)
+
+- research funded by **ANR**, supported by **University of Rennes**, publication opportunity : **American Journal of Obstetrics and Gynecology**
+
+- research funded by **National Health and Medical Research Council of Australia**, made in **University of Melbourne**, publication opportunity : **Human heredity** (Karger)
+
+- research funded by Bill & Melinda Gates Foundations, supported by **University Alassane Ouattara**, publication opportunity : **Games and Culture**
+
+:::
+::::
+
+
+# The three pillars of Open Science {background-color="#fef1da"}
+
+:::{.incremental}
+- Publications
+- Data management
+- Source Code
+:::
+
+Your CV HAL must contain all your work! (not only your publications)
+
+# persistent identifiers for researchers {background-color="#fef1da"}
+
+:::{style="green"}
+Why should you have an ORCID?
+:::
+::::{.r-fit-text}
+:::{.incremental}
+- international standard
+- get credited for all the works you have published
+- pivot identifier with commercial (WOSID, ScopusID) or institutional identifiers (idHAL, idref)
+- for administration, make easier to link grants, publications, source code, datasets to a single researcher
+- higher adoption rate in STEM than in SHS
+:::
+::::
+:::{.notes}
+you only can create your own ORCID and populate it with your works. 
+:::
+
+# {background-color="#fef1da"}
+
+**other things you may consider to do in order to be more visible**
+
+:::{.incremental}
+- managing you Google Scholar profile
+- creating accounts on social networks (Twitter, Mastodon, Bluesky ?)
+- creating a static website to share your thoughts and showcase the diversity of your works
+:::
+
+# Bibliography
 
 
 
