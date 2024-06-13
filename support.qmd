@@ -29,12 +29,29 @@ csl: apa.csl
 
 # {background-color="#fef1da"}
 
+::::{.columns}
+:::{.column width="50%"}
+<img src="images/read.gif">
+:::
+:::{.column width="50%"}
+:::{.incremental}
+
+- Roads (Green, Road, Diamond)
+
+- Scientific misconduct (nepotic / predatory journals, harking)
+
+- consistent CV and collection of all academic works
+:::
+:::
+::::
+
+# {background-color="#fef1da"}
+
 ![where should I publish](images/initial_question.png){fig-alt="a toot posted in Mastodon by a researcher asking where she should publish her paper on analysis of Twitter data to explore the science reform community structure"}
 
 # {background-color="#fef1da"}
 
 ::: {.incremental}
-- rejection rate
 - nepotistic journals
 - bibliodiversity
 - open science standards
@@ -105,8 +122,10 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 
 ## journal finders {background-color="#fef1da"}
 
-![Bison built upon DOAJ and OpenCites](images/bison.png)
 :::{.incremental}
+
+![Bison built upon DOAJ and OpenCites](images/bison.png)
+
 - [Bison](https://service.tib.eu/bison/)
 
 - [Web of science journal finder](https://mjl.clarivate.com/home)
@@ -114,6 +133,7 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 - [open journal matcher](https://openeconomics.zbw.eu/en/knowledgebase/open-journal-matcher/)
 
 - [try AI tools such as Perplexity.ai](https://perplexity.ai)
+
 :::
 
 ## {background-color="#fef1da"}
@@ -205,11 +225,15 @@ Call to resign from positions in journal boards owned by Elsevier, call to refus
 
 # {background-color="#fef1da"}
 
-2023 Total expenses : 
+:::::{.columns}
+::::{.column width="50%"}
+<img src="images/money.gif">
+::::
 
-::::{.incremental}
+::::{.column width="50%"}
+:::{.incremental}
 ::: {style="color: red"}
-- 1 496 848 €
+- 2023 Total expenses : 1 496 848 €
 :::
 :::{style="color: red"}
 - about 1000 euros by researcher
@@ -223,7 +247,10 @@ Call to resign from positions in journal boards owned by Elsevier, call to refus
 :::{style="color: black"}
 - subscription fee for Science Direct only : 406 232 €
 :::
+:::
 ::::
+:::::
+
 
 
 # Green Open Access with embargoes {background-color="#fef1da"}
@@ -302,6 +329,42 @@ APC model lowers barriers to readers only to raise them for authors.
 :::
 ::::
 
+# predatory open access publishers {background-color="#fef1da"}
+
+::::{.columns .r-fit-text}
+:::{.column width="50%"}
+<img src="images/plant.gif">
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- Absent or problematic peer reviewing process
+- Mimicry (impersonation) towards legitimate journals
+- Intensive spamming (over-flattering emails)
+- false or dubious metrics
+- lack of details about APC, peer-review process, publication licence
+:::
+:::
+::::
+
+# how to avoid this trap
+
+:::{.incremental}
+- black lists are ineffective (and expensive)
+- white lists combined with criteria could be usefull
+- ask yourself the good questions
+:::
+
+# Are these journal reliable for a publication
+
+- [Polish journal of science](https://www.poljs.com/)
+
+- [Journal of Imaging](https://www.mdpi.com/journal/jimaging)
+
+- [Clinical Infection diseases: open access](https://www.hilarispublisher.com/clinical-infectious-diseases.html)
+
+:::{.fragment .fade-up}
+[A usefull tool : the Compass to Publish](https://services.lib.uliege.be/compass-to-publish/)
+:::
 
 # The three pillars of Open Science {background-color="#fef1da"}
 
@@ -340,6 +403,44 @@ you only can create your own ORCID and populate it with your works.
 - creating accounts on social networks (Twitter, Mastodon, Bluesky ?)
 - creating a static website to share your thoughts and showcase the diversity of your works
 :::
+
+# {background-color="#fef1da"}
+
+**Twitter : should I go or should I stay?**
+
+::::{.columns .r-fit-text}
+:::{.column width="50%"}
+:::{.incremental}
+:::{style="color: red"}
+**STAY**
+:::
+- all community on one platform
+- Ok, Twitter was better before, but my followers are here
+- friendly user interface (=I don't want to change for another UI)
+:::
+:::
+:::{.column width="50%"}
+:::{.incremental}
+:::{style="color: green"}
+**LEAVE**
+:::
+- Twitter's enshitification by Elon Musk (> nov 2022)
+- breeding ground for climate denialists herds and far-right wing fake news superspreaders
+- Mastodon is open source (no hidden algorithm)
+- Mastodon is decentralized
+- reduced negativity bias (information gain)
+:::
+:::
+::::
+
+# personal website
+:::{style="color: black"}
+> In essence, the researcher is dispersed: conferences, journal articles, book chapters, blog posts, courses, project management, scientific or editorial committees, etc. It's a job that involves a wide variety of written and oral productions. It's a profession that involves a wide variety of written and oral productions. If only to unify all this, to guarantee an exhaustive point of access, it would be useful to have a portal linking all the digital or analog places of knowledge where we work.
+
+(Arthur Perret :notebook: @perretDrJekyllMr2018 )
+:::
+
+
 
 # Bibliography
 
