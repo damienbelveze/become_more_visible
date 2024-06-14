@@ -312,6 +312,18 @@ APC model lowers barriers to readers only to raise them for authors.
 :::
 
 
+# Diamond OA {background-color="#fef1da"}
+
+![](images/seismica.png)
+
+# {background-color="#fef1da"}
+
+- some SHS journals do not want to give up the subscription model but they do not think in full-costs terms
+
+- some OA pure players are very fragile. When they shut down, we loose hundreds of papers going offline 
+- sources: 
+:notebook: @dalmeetKeyChemistryJournal2024 ,@wildMillionsResearchPapers2024
+
 # {background-color="#fef1da"}
 
 **which way of publishing is possible / recommended**
