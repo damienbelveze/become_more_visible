@@ -1,0 +1,567 @@
+---
+title: "Comment rendre son travail de recherche plus visible"
+subtitle: "stratégies de publication et intégrité scientifique"
+date: 12/04/2024
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        logo: images/logo.png
+        footer: "CC-by:4.0 Damien Belvèze"
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        from: markdown+emoji
+        theme: [dark, monstyle.css]
+        title-slide-attributes: 
+            data-background-color: "#fef1da"
+#       background-color: "#fef1da"
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+bibliography: biblio/cosma.bib
+csl: apa.csl
+---
+
+# {background-color="#fef1da"}
+
+::::{.columns}
+
+:::{.column width="50%"}
+<img src="images/read.gif">
+:::
+
+:::{.column width="50%"}
+:::{.v-center-container}
+:::{style="font-size=28px"}
+1. Stratégies de publication
+:::
+:::
+:::
+::::
+
+# {background-color="#fef1da"}
+
+![Où publier](images/initial_question.png){fig-alt="a toot posted in Mastodon by a researcher asking where she should publish her paper on analysis of Twitter data to explore the science reform community structure"}
+
+# {background-color="#fef1da"}
+
+::: {.incremental}
+- bibliodiversité
+- Journaux népotiques
+- dépôt d'une méthodologie, d'un preprint
+:::
+:::{.notes}
+réponse de la chercheuse (19 juin 2024) : it’s a good question. It’s probably not an issue at all honestly. Maybe it’s good to have some diversity in one’s pubs but I’m not sure why exactly that might be… it just feels funny to pub in the same journal over and over. And im honestly not sure why. I need to reflect on why I feel weird about it.
+:::
+
+# Biais éditoriaux {background-color="#fef1da"}
+
+"journaux népotiques (ou d'"autopromotion")
+
+- Les auteurs qui publient le plus sont également des membres du comité de lecture
+- Vous avez des relations personnelles avec des membres du comité de lecture
+- vos reviewers ont un intérêt budgétaire à être indulgent avec votre manuscrit
+
+:::{.notes}
+Depuis 2006, les instituts de recherche hospitalières reçoivent des crédits en fonction du nombre de leurs publications (SIGAPS) : forte incitation à publier beaucoup et pour cela à publier dans des revues où d'autres membres du même institut sont reviewers :notebook: @larousserieLancetgatePublierBeaucoup2020
+:::
+
+## {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/NMNI.png)
+:::
+:::{.column width="50%"}
+![](images/raoult.png){ width="70%" }
+:::
+::::
+:::{.fragment .fade-up}
+Le rédacteur en chef de la revue et six autres membres du comité éditorial font partie de son équipe
+ensemble, ils ont publié 44% des articles publiés dans ce journal (2021) :notebook: @scanffSurveyBiomedicalJournals2021
+:::
+
+## Pourquoi pré-enregistrer une étude ? {background-color="#fef1da"}
+
+::::{ .columns }
+:::{.column width="50%"}
+![](images/harking.jpg)
+:::
+:::{.column width="50%" .r-fit-text}
+:::{.incremental}
+- accroît la transparence de la méthode et la reproductibilité des résultats
+- réduit les risques de manquements à l'intégrité scientifique (**harking**, **cherry-picking**)
+- atteste l'originalité de la méthode et des idées
+- pré-enregistrer AVANT d'avoir connaissance des données collectées
+:::
+:::
+::::
+:::{.notes}
+
+basically, study registration aims at limiting Harking (Hypothesis after Results Are Known). Harking is a scientific misconduct.
+
+Side effects aren't known well. There are concerns regarding (in)flexibility, selection of topics easier to preregister, a leftover risk of cheating preregs, increases in costs and effort.
+:::
+
+## {background-color="#fef1da"}
+
+### Où pré-enregistrer une étude ?
+
+
+:::{.fragment .fade-up}
+[Prospero](https://www.crd.york.ac.uk/prospero/) (revues de littérature)
+:::
+:::{.fragment .fade-up}
+[Zenodo](https://zenodo.org/) (toutes disciplines)
+:::
+:::{.fragment .fade-up}
+[OSF](https://osf.io/registries) (toutes disciplines)
+:::
+
+
+## journal finders {background-color="#fef1da"}
+
+:::{.incremental}
+
+![Bison built upon DOAJ and OpenCites](images/bison.png)
+
+- [Bison](https://service.tib.eu/bison/)
+
+- [Web of science journal finder](https://mjl.clarivate.com/home)
+
+- [Enago open Access journal matcher](https://www.enago.com/researcher-hub/journal-finder.htm)
+
+- [try AI tools such as Perplexity.ai](https://perplexity.ai)
+
+:::
+
+## {background-color="#fef1da"}
+
+Vous venez de mettre la dernière main à votre [article](title_abstract.html). A quel journal pourriez-vous le soumettre ?
+
+- Vous n'avez pas d'argent pour payer les APC (Articles Processing Charges)
+
+- Votre article devrait être accessible dès sa publication
+
+## {background-color="#fef1da"}
+
+**faut-il déposer un preprint ?** 
+
+![](images/preprint.png)
+
+## {background-color="#fef1da"}
+
+**Faut-il déposer un preprint de votre article ?**
+
+:::{.incremental}
+- Est-ce qu'il est possible de publier dans *Bone & Joint Journal* après avoir déposé un preprint dans BioRXiv ?
+
+- Est-ce qu'il est possible de publier dans  *Journal on Experimental Algorithmics* après avoir déposé un preprint dans SSRN (propriété d'Elsevier) ?
+
+- Est-ce qu'il est possible de publier dans  *Physical Review Fluids* après avoir déposé un preprint dans un Zenodo ? 
+:::
+
+:::{.fragment .fade-up}
+[SherpaRomeo gives you the answer](https://www.sherpa.ac.uk/)
+:::
+
+## {background-color="#fef1da"}
+
+**should you deposit a preprint version of your work ?**
+
+::::{.incremental .r-fit-text}
+:::{style="color: #000"}
+Est-ce qu'il est possible de publier dans *Bone & Joint Journal* après avoir déposé un preprint dans BioRXiv ?
+:::
+:::{style="color: red"}
+- Non, ce journal n'accepte pas de publier des articles qui ont été préalablement déposés sur un serveur de preprints
+:::
+:::{style="color: #000"}
+- Est-ce qu'il est possible de publier dans  *Journal on Experimental Algorithmics* après avoir déposé un preprint dans SSRN (propriété d'Elsevier) ?
+:::
+:::{style="color: red"}
+Non. Seuls les serveurs de preprints à but non lucratif sont autorisés. SSRN appartient à une société à but (très) lucratif
+:::
+:::{style="color: #000"}
+- Est-ce qu'il est possible de publier dans  *Physical Review Fluids* après avoir déposé un preprint dans un Zenodo ?
+:::
+:::{style="color: #10ae9b"}
+- Tous les serveurs de preprints sont autorisés
+:::
+::::
+
+## PCI (Peer Community In) reviewing de preprints
+
+- Soumission du preprint sur un serveur de preprint - par exemple [HAL](https://www.ccsd.cnrs.fr/2024/01/proposer-un-preprint-a-peer-community-in-c-est-possible-maintenant-des-le-formulaire-de-depot-hal/)
+- en cas d'évaluation positive, le manuscrit est promu auprès des éditeurs
+
+## Plan S : comment rendre les résultats de la recherche immédiatement accessibles {background-color="#fef1da"}
+
+- Voie verte avec stratégie de rétention des droits
+- Voie dorée
+- Voie Diamant
+
+## Voie verte {background-color="#fef1da"}
+
+- [HAL](https://hal.sciences)
+- [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
+- *Loi pour une République Numérique*, 2016
+
+# The cost of knowledge {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/boycott_elsevier.png)
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- inflation des coûts d'abonnement
+- 2012, pétition lancée par Tim Gowers : "The cost of knowledge"
+- embargos
+:::
+:::
+::::
+
+:::{.notes}
+Tim Gowers 2012 Cost of knowledge protest against indecent Elsevier’s subscription rates
+Call to resign from positions in journal boards owned by Elsevier, call to refuse to review for Elsevier and equivalent majors of scientific publishing
+:::
+
+# {background-color="#fef1da"}
+
+:::::{.columns}
+::::{.column width="50%"}
+<img src="images/money.gif">
+::::
+
+::::{.column width="50%"}
+:::{.incremental}
+::: {style="color: red"}
+- 2023 montant total des dépenses : 1 496 848 €
+:::
+:::{style="color: red"}
+- environ 1000 euros par chercheur/se
+:::
+:::{style="color: black"}
+- augmentation annuelle des coûts : 1-2 %
+:::
+:::{style="color: black"}
+- désabonnement : Springer (en 2018)
+:::
+:::{style="color: black"}
+- coût de la seule licence Science Direct : 406 232 €
+:::
+:::
+::::
+:::::
+
+
+
+# Voie verte et embargos {background-color="#fef1da"}
+
+Loi pour une République Numérique (article 30) : articles financés à au moins 50% sur fonds publics
+
+:::{.incremental}
+- Sciences Exactes : 6 mois
+- Sciences Humaines et Sociales: 12 mois
+:::
+
+# Gold Open Access {background-color="#fef1da"}
+
+- Open Access immédiat
+- Le "Gold" ne devrait pas se limiter au paiement d'"APC"
+- éditeurs hybrides
+
+# Licences {background-color="#fef1da"}
+
+:::{.r-stretch}
+![licences permises dans le cadre de l'open access](images/licences.jpg)
+La licence doit être standard et facilement interprétable
+:::
+:::{.notes}
+Bronze OA : pas de licence standard / éviter ce type de publication
+:::
+
+
+# Stratégie de Rétention des Droits {background-color="#fef1da"}
+
+:::{.incremental}
+- [attribution d'une licence CC-by au manuscrit](https://www.coalition-s.org/wp-content/uploads/2022/03/Submission_Cover_Letter_Template.docx). 
+
+- [envoyer aussi un courrier explicatif](https://www.coalition-s.org/wp-content/uploads/2022/03/Presubmission_Letter_to_Journal_Publisher_Template.docx)
+
+- perspectives de négociation
+:::
+:::{.notes}
+Mentionner les **article development charges** imposés par ACS
+:::
+
+
+# Gold OA {background-color="#fef1da"}
+
+**When Gold means "a lot of money to pay as APC"**
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/APC.png)
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- APC (nature) : jusqu'à 9500 $
+- moyenne (France, 2020) : 2488 € :notebook: @blanchardRetrospectiveProspectiveStudy2022
+- 2012 - 2022 coûts d'APC (France): **triplement**
+:::
+:::
+::::
+:::{.notes}
+APC cost rises three times more than inflation (triples between 2013 and 2022 according to Blanchard : 
+
+the total cost of APCs has tripled in the period 2013-2020. The major driver is the growth of articles in Gold OA journals, i.e. fully open access journals with APCs (without this growth, the APC cost would have been multiplied by 1,69 instead of 3)
+
+APC model lowers barriers to readers only to raise them for authors.
+(same things for publish and read models : some institutions can afford it, some not). 
+
+**Business models based on APCs and subscriptions are highly inequitable.**
+:::
+
+
+# Diamond OA {background-color="#fef1da"}
+
+![](images/seismica.png)
+
+# {background-color="#fef1da"}
+
+- Certains journaux en SHS ne veulent pas lâcher leurs souscriptions mais ne raisonnent pas en coûts complets
+
+- Certains *pure players OA* sont fragiles. En cas de fermeture, faute d'un workflow de conservation, on pert des milliers d'articles du jour au lendemain
+- sources: 
+:notebook: @dalmeetKeyChemistryJournal2024 ,@wildMillionsResearchPapers2024
+
+# {background-color="#fef1da"}
+
+**which way of publishing is possible / recommended**
+
+::::{.r-fit-text}
+:::{incremetal}
+- [Journal checker tool](https://journalcheckertool.org/)
+
+- fonds : **ANR**, institution : **University of Rennes**, publication envisagée : **American Journal of Obstetrics and Gynecology**
+
+- fonds : **National Health and Medical Research Council of Australia**, institution : **University of Melbourne**, publication envisagée : **Human heredity** (Karger)
+
+- fonds : **Bill & Melinda Gates Foundations**, institution : **University Alassane Ouattara**, publication envisagée : **Games and Culture**
+
+:::
+::::
+
+# Editeurs prédateurs {background-color="#fef1da"}
+
+::::{.columns .r-fit-text}
+:::{.column width="50%"}
+<img src="images/plant.gif">
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- peer-review absent ou très lacunaire
+- abus de l'identité de journaux respectés
+- spamming intensif (mails flatteurs)
+- métriques inexistantes ou douteuses
+- information lacunaire sur le montant des APC, sur la procédure de réglement ou sur la licence qui sera appliquée
+:::
+:::
+::::
+
+# Comment éviter le piège {background-color="#fef1da"}
+
+:::{.incremental}
+- Les listes noires sont inefficaces et pas mises à jour (et chères)
+- Les listes blanches sont utiles (combinées à d'autres critères)
+- il est nécessaire de se poser les bonnes questions
+:::
+
+# Peut-on soumettre notre article à l'un de ces journaux ? {background-color="#fef1da"}
+
+- [Polish journal of science](https://www.poljs.com/)
+
+- [Journal of Imaging](https://www.mdpi.com/journal/jimaging)
+
+- [Clinical Infection diseases: open access](https://www.hilarispublisher.com/clinical-infectious-diseases.html)
+
+:::{.fragment .fade-up}
+[A usefull tool : the Compass to Publish](https://services.lib.uliege.be/compass-to-publish/)
+:::
+
+# {background-color="#fef1da"}
+
+::::{.columns}
+
+:::{.column width="50%"}
+<img src="images/read.gif">
+:::
+
+:::{.column width="50%"}
+:::{.v-center-container}
+:::{style="font-size=28px"}
+2. Identité numérique et visibilité
+:::
+:::
+:::
+::::
+
+
+# Les trois pilliers de la Science Ouverte {background-color="#fef1da"}
+
+:::{.incremental}
+- Publications
+- Data management
+- Source Code
+:::
+
+Faire un CV en ligne avec toutes vos productions
+
+# concepts de base {background-color="#fef1da"}
+
+## {auto-animate=true}
+
+impact
+
+## {auto-animate=true}
+
+visibilité
+
+impact
+
+## {auto-animate=true}
+
+e-reputation
+
+visibilité
+
+impact
+
+
+## {auto-animate=true}
+
+identité numérique
+
+e-reputation
+
+visibilité
+
+impact
+
+:::{.notes}
+**identité numérique :** 
+
+traces du web, dont traces passives. 
+
+« L’identité numérique peut être définie comme
+la collection des traces (écrits, contenus audios
+ou vidéos, messages sur des forums, identifiants
+de connexion, etc.) que nous laissons derrière
+nous, consciemment ou inconsciemment, au fil
+de nos navigations sur le réseau et le reflet de
+cet ensemble de traces, tel qu’il apparaît
+‘remixé’ par les moteurs de recherche » (Olivier Ertzscheid) 
+
+**visibilité :** ça passe par un intermédiaire qu'est le moteur de recherche ; visibilité d'un profil, d'une personne, de ses activités. Comprendre comment fonctionnent les moteurs de recherche pour apparaître comme on le souhaite
+
+**e-reputation :**
+interprétation que se font les internautes des traces. Remixage par les préjugés, biais, avis des internautes. 
+
+**Impact :**
+nombre de citations, de téléchargements. Plus les publis sont disponibles, plus elles seront citées (bénéfice de citation)
+:::
+
+# Identifiants de chercheurs {background-color="#fef1da"}
+
+:::{style="green"}
+Pourquoi devriez-vous vous créer un ORCID ?
+:::
+::::{.r-fit-text}
+:::{.incremental}
+- standard international
+- réunir toutes vos productions sous une même identité
+- pivot avec les identifiants commerciaux (WoSID, ScopusID) et les identifiants institutionnels (idHAL, idref)
+- pour l'administration, permet de tracer les productions d'un chercheur, d'une équipe, d'un laboratoire
+- plus grande adoption dans le cadre des Sciences Exactes que dans celui des Sciences Humaines et Sociales
+:::
+::::
+:::{.notes}
+demander aux étudians s'ils ont déjà un ORCID, et si c'est le cas, est-ce que les publications référencées dans leur ORCID est à jour ?
+:::
+
+# {background-color="#fef1da"}
+
+**Se signaler comme chercheur ou chercheuse avec son affiliation**
+
+:::{.incremental}
+- Investir les pages personnelles de l'université (doctoants = crédibilité)
+- Faire une veille sur l'usage du nom (lutte contre l'usurpation d'identité)
+- Se créer un profil sur Google Scholar
+- préciser un contact (pas d'adresse institutionnelle)
+:::
+
+# {background-color="#fef1da"}
+
+**Twitter devient X : should I go or should I stay?**
+
+::::{.columns .r-fit-text}
+:::{.column width="50%"}
+:::{.incremental}
+:::{style="color: red"}
+**STAY**
+:::
+- ça reste pratique : X(Twitter) continue de jouer un rôle central
+- Ok, Twitter c'était mieux avant, mais si je change, mes followers ne me suivront pas
+- l'interface est simple (=pas envie de m'habituer à une autre)
+:::
+:::
+:::{.column width="50%"}
+:::{.incremental}
+:::{style="color: green"}
+**LEAVE**
+:::
+- Twitter emmerdifié par Elon Musk depuis nov 2022
+- devient un nid de climato-négationnistes et le parloir des désinformateurs de l'extrême droite
+- Le protocole d'échange du Fediverse est libre (pas d'algo qui filtre votre Mastodon sans votre assentiment)
+- Mastodon est décentralisé
+- Mastodon est interopérable (Twitter est enclos sur lui-même et payant pour communiquer à l'extérieur)
+- biais négatif réduit (et gain d'information)
+:::
+:::
+::::
+
+# Carnets de note en ligne
+:::{style="color: black"}
+> Par essence, le chercheur est dispersé : conférences, articles de revue, chapitres d’ouvrage, billets de blog, cours, gestion de projets, comités scientifiques ou éditoriaux, etc. C’est un métier qui implique une grande diversité de productions écrites ou orales. Ne serait-ce que pour unifier cet ensemble, garantir un point d’accès exhaustif, il est utile de disposer d’un portail faisant le lien vers tous les lieux de savoir numériques ou analogiques où nous travaillons.
+
+(Arthur Perret :notebook: @perretDrJekyllMr2018 )
+:::
+
+# Où héberger mon carnet de notes ?
+
+:::{.incremental}
+- [https://hypotheses.org/](Sciences Humaines et Sociales)
+- github ou gitlab (Toutes disciplines)
+  * github pour l'hébergement (en utilisant Git [ou pas](https://github.com/GetPublii/Publii))
+  * [Quarto pour l'édition](https://quarto.org/docs/websites/)
+  * [github pages](https://pages.github.com/) pour l'affichage en ligne
+:::
+
+
+# Bibliography
+
+
+
+
