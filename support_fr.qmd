@@ -141,7 +141,7 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 
 - [Enago open Access journal matcher](https://www.enago.com/researcher-hub/journal-finder.htm)
 
-- [try AI tools such as Perplexity.ai](https://perplexity.ai)
+- [essayer des outils d'IA comme Perplexity.ai](https://perplexity.ai)
 
 :::
 
@@ -172,7 +172,7 @@ Vous venez de mettre la dernière main à votre [article](title_abstract.html). 
 :::
 
 :::{.fragment .fade-up}
-[SherpaRomeo gives you the answer](https://www.sherpa.ac.uk/)
+[SherpaRomeo vous donne la réponse](https://www.sherpa.ac.uk/)
 :::
 
 ## {background-color="#fef1da"}
@@ -187,20 +187,20 @@ Est-ce qu'il est possible de publier dans *Bone & Joint Journal* après avoir d�
 - Non, ce journal n'accepte pas de publier des articles qui ont été préalablement déposés sur un serveur de preprints
 :::
 :::{style="color: #000"}
-- Est-ce qu'il est possible de publier dans  *Journal on Experimental Algorithmics* après avoir déposé un preprint dans SSRN (propriété d'Elsevier) ?
+Est-ce qu'il est possible de publier dans  *Journal on Experimental Algorithmics* après avoir déposé un preprint dans SSRN (propriété d'Elsevier) ?
 :::
 :::{style="color: red"}
-Non. Seuls les serveurs de preprints à but non lucratif sont autorisés. SSRN appartient à une société à but (très) lucratif
+- Non. Seuls les serveurs de preprints à but non lucratif sont autorisés. SSRN appartient à une société à but (très) lucratif
 :::
 :::{style="color: #000"}
-- Est-ce qu'il est possible de publier dans  *Physical Review Fluids* après avoir déposé un preprint dans un Zenodo ?
+Est-ce qu'il est possible de publier dans  *Physical Review Fluids* après avoir déposé un preprint dans un Zenodo ?
 :::
 :::{style="color: #10ae9b"}
 - Tous les serveurs de preprints sont autorisés
 :::
 ::::
 
-## PCI (Peer Community In) reviewing de preprints
+## PCI (Peer Community In) reviewing de preprints {background-color="#fef1da"}
 
 - Soumission du preprint sur un serveur de preprint - par exemple [HAL](https://www.ccsd.cnrs.fr/2024/01/proposer-un-preprint-a-peer-community-in-c-est-possible-maintenant-des-le-formulaire-de-depot-hal/)
 - en cas d'évaluation positive, le manuscrit est promu auprès des éditeurs
@@ -273,7 +273,7 @@ Loi pour une République Numérique (article 30) : articles financés à au moin
 
 :::{.incremental}
 - Sciences Exactes : 6 mois
-- Sciences Humaines et Sociales: 12 mois
+- Sciences Humaines et Sociales : 12 mois
 :::
 
 # Gold Open Access {background-color="#fef1da"}
@@ -398,7 +398,7 @@ APC model lowers barriers to readers only to raise them for authors.
 - [Clinical Infection diseases: open access](https://www.hilarispublisher.com/clinical-infectious-diseases.html)
 
 :::{.fragment .fade-up}
-[A usefull tool : the Compass to Publish](https://services.lib.uliege.be/compass-to-publish/)
+[Un outil utile : the Compass to Publish](https://services.lib.uliege.be/compass-to-publish/)
 :::
 
 # {background-color="#fef1da"}
@@ -560,7 +560,7 @@ demander aux étudians s'ils ont déjà un ORCID, et si c'est le cas, est-ce que
 :::
 
 
-# Bibliography
+# Références
 
 
 
