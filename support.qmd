@@ -11,21 +11,41 @@ author:
 
 format: 
     revealjs:
-        slide-number: c/t
+      logo: images/logo_ardoise.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: images/lab.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+      slide-number: c/t
 #        show-slide-number: # print
 #       show-notes: separate-page
-        embed-resources: true
-        transition: convex
-        from: markdown+emoji
-        theme: [dark, monstyle.css]
-        reveal_plugins: [menu]
-        reveal_options: 
-          menu: 
-            numbers: true
+      embed-resources: true
+      transition: convex
+      from: markdown+emoji
+      theme: [dark, monstyle.css]
+      brand: _brand.yml
+      reveal_plugins: [menu]
+      reveal_options: 
+        menu: 
+          numbers: true
 
-bibliography: biblio/cosma.bib
+bibliography: biblio/Cosma.bib
 csl: apa.csl
 ---
+
+
+# {background-color="#fef1da"}
+::::{.columns}
+:::{.column width="50%"}
+On my death bed, my last words for my children will be : **always remember the 3-2-1 rule**
+:::
+:::{.column width="50%"}
+![](images/3-2-1-Backup-Rule.png)
+
+:::
+::::
+
 
 # {background-color="#fef1da"}
 
@@ -45,9 +65,28 @@ csl: apa.csl
 :::
 ::::
 
+:::{.notes}
+Welcome to this session that's going to last two hours and a half. 
+I am Damien Belvèze, librarian at the University of Rennes, member of the Rennes datahub ARDoISE
+This session is opened to students from Britany and also for Students from universities members of the EDUC Alliance. today will attend to this meeting: 
+
+from Rennes : 10
+from Brest : 6
+from Vannes - Lorient : 2
+from Cagliari (Italia) : 1
+from Masaryck (Czek Republic) : 2
+**Welcome to all!**
+:::
+
 # {background-color="#fef1da"}
 
 ![where should I publish](images/initial_question.png){fig-alt="a toot posted in Mastodon by a researcher asking where she should publish her paper on analysis of Twitter data to explore the science reform community structure"}
+
+:::{.notes}
+this is a toot posted in Mastodon by a researcher asking where she should publish her paper on analysis of Twitter data to explore the science reform community structure.
+This is a good introduction to our session because it is a genuine problem of publication strategy
+:::
+
 
 # {background-color="#fef1da"}
 
@@ -60,6 +99,8 @@ csl: apa.csl
 :::{.notes}
 
 we will talk about rejection rates later, when we will say some words about predatory open access publishers
+
+About bibliodiversity : I asked this person to what extend she thought that it could be damageable for her reputation as scientist to publish most of her papers in the same journal ; she answered that she had not really idea about this and that maybe it was not a problem at all ; this is an open question : what do you think about it?
 :::
 
 # editorial bias and nepotistic reviews
@@ -79,7 +120,7 @@ we will talk about rejection rates later, when we will say some words about pred
 :::
 ::::
 :::{.fragment .fade-up}
-editor-in chief and 6 other board members work for him
+editor-in chief and 6 other board members worked for him
 they authored together 44% of the published papers (2021) :notebook: @scanffSurveyBiomedicalJournals2021
 :::
 
@@ -116,7 +157,11 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 [Zenodo](https://zenodo.org/) for every discipline
 :::
 :::{.fragment .fade-up}
-[OSF](https://osf.io/registries) for every discipline
+[OSF](https://osf.io/registries) for Psychology, Medicine and Hard Sciences
+:::
+
+:::{.notes}
+Given that osf.io is dependant of US legislation, should we switch to a pluri-national research infrastructure such as Zenodo see @ScienceMustStep2025
 :::
 
 
@@ -136,6 +181,11 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 
 :::
 
+:::{.notes}
+Bison (B!SON is an acronym for 'Bibliometric and Semantic Open Access Recommender Network) is maintained by the Leibniz Information Center and the Saxon State and University Library in Dresden. B!son is based on the DOAJ and the Open Citations graph and involves machine learning. 
+
+:::
+
 ## {background-color="#fef1da"}
 
 You have just finished the [manuscript](title_abstract.html) of your paper. To which journals will you submit it ?
@@ -148,7 +198,23 @@ You have just finished the [manuscript](title_abstract.html) of your paper. To w
 
 **should you deposit a preprint version of your work** ? 
 
+::::{.columns}
+:::{.column width="70"}
 ![](images/preprint.png)
+:::
+:::{.column width="30%"}
+
+Publishers policies on OpenAccess are listed on [SherpaRomeo](https://openpolicyfinder.jisc.ac.uk/) website
+
+:::
+::::
+:::{.notes}
+preprint deposits have become commonplace in the field of scientific publishing and in most of the cases, but not all (some disciplines are still reluctant such as chemistry), publishers have finally accepted that preprints are deposited by the researcher ahead of the publication. 
+
+Sometimes funders require that a preprint should be deposited (see for instance Gates and Melinda Fundation) ; when the publisher refuses, it happens that researchers deposit their preprint after the publication is made, which is a bit tricky, but researchers have to deal with several constraints, sometimes contradictory ones. 
+
+:::
+
 
 ## {background-color="#fef1da"}
 
@@ -191,6 +257,22 @@ is it possible to have a paper published in the journal *Physical Review Fluids*
 :::
 ::::
 
+# {.r-fit-text .smaller}
+
+<div class="ytable">
+
+| Name   | discipline      | comments         |                                         
+|:--------- | :------------------------ | :--------------- |
+| ArXiv      | physics, informatics      | the first one (1990, University of Los Alamos). Its design has not changed at all in thirty years ; when a design satisfies the website's users, there is no reason to change it |
+| MedRXiv    | Medicine                  | boom pendant le COVID-19   |
+| BioRxiv    | Biology                   |                      |
+| PsyArXiv   | Psychology                |                      |
+| CogPrints  | Cognitive psychology      | Funded in 1997 by Stevan Harnad, one of the pioneer of the Open Access movement with philosopher Peter Suber |
+| SSRN       | Social and Human Sciences | owned by Elsevier |
+| EcoEvoRxiv | Evolutionary biology      | Since 2018, accepts articles and grey literature. not only in English but also in spanish, french, portuguese |
+
+</div>
+
 ## Plan S : make scientific output immediately available {background-color="#fef1da"}
 
 - green open access with retention right strategy
@@ -203,25 +285,33 @@ is it possible to have a paper published in the journal *Physical Review Fluids*
 - [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
 - *Loi pour une République Numérique*, 2016
 
-# traditional way of publishing {background-color="#fef1da"}
+# {background-color="#fef1da"}
 
 ::::{.columns}
 :::{.column width="50%"}
+**traditional way of publishing**
+
 ![](images/boycott_elsevier.png)
 :::
-:::{.column width="50%"}
-:::{.incremental}
+:::{.column width="50%" .incremental}
 - inflation of subscription costs
 - 2012, Tim Gowers : "The cost of knowledge"
 - embargo periods
-:::
+- Elsevier : 37,8 % as profit margin
+- Elsevier : 16% of all publications
+- Springer, Wiley, MDPI, Frontiers...
 :::
 ::::
 
 :::{.notes}
 Tim Gowers 2012 Cost of knowledge protest against indecent Elsevier’s subscription rates
 Call to resign from positions in journal boards owned by Elsevier, call to refuse to review for Elsevier and equivalent majors of scientific publishing
+
+37,8 % as profit margin (outperforms Apple because Apple has to pay for the raw material)
+Elsevier : 16% of all publications
 :::
+
+
 
 # {background-color="#fef1da"}
 
@@ -233,7 +323,7 @@ Call to resign from positions in journal boards owned by Elsevier, call to refus
 ::::{.column width="50%"}
 :::{.incremental}
 ::: {style="color: red"}
-- 2023 Total expenses : 1 496 848 €
+- 2023 Total expenses for research subscriptions at the University of Library : 1 496 848 €
 :::
 :::{style="color: red"}
 - about 1000 euros by researcher
@@ -309,12 +399,27 @@ APC model lowers barriers to readers only to raise them for authors.
 (same things for publish and read models : some institutions can afford it, some not). 
 
 **Business models based on APCs and subscriptions are highly inequitable.**
+
+APC model removes barriers to readers but raise new barriers to authors, excluding scientists from underfundend institutions to equally contribute to scientific cooperation
+
 :::
 
 
 # Diamond OA {background-color="#fef1da"}
 
 ![](images/seismica.png)
+
+:::{.notes}
+Diamond Road was forged as a concept by Marie Farge, french mathematician and physicist in 2012 to restore inclusivity in the scientific communication system and lower barriers as well to readings than to publications. 
+Diamond road is about making possible to publish peer reviewed articles for free thanks to non-for-profit publishing institutions. 
+According to the definition of Fuchs and Sandoval (2013) : 
+"In the Diamond Open Access Model, not-for-profit, non-commercial organisations, associations or networks publish material that is made available online in digital format, is free of charge for readers and authors and does not allow commercial and for-profit re-use."
+community-controlled 
+no copyright transfer
+OA
+no APC 
+proportionate and transparent cost structure
+:::
 
 # {background-color="#fef1da"}
 
@@ -323,6 +428,11 @@ APC model lowers barriers to readers only to raise them for authors.
 - some OA pure players are very fragile. When they shut down, we loose hundreds of papers going offline 
 - sources: 
 :notebook: @dalmeetKeyChemistryJournal2024 ,@wildMillionsResearchPapers2024
+
+:::{.notes}
+Most of the time, these models are supported by the university who pays the wages of the editorial staff of the power, the computers and other materials of that kind.
+:::
+
 
 # {background-color="#fef1da"}
 
@@ -366,7 +476,13 @@ APC model lowers barriers to readers only to raise them for authors.
 - ask yourself the good questions
 :::
 
-# Are these journal reliable for a publication
+:::{.notes}
+after some years of subcription, University of Masaryck cancelled in 2023 its subscription to Cabell's List because this list was "incomplete, very expansive, out of date and bloody expansive : 47 000 euro a year for Masaryck UNI" (Lukacs Plch)
+
+:::
+
+
+# Are these journal reliable for a publication {background-color="#fef1da"}
 
 - [Polish journal of science](https://www.poljs.com/)
 
@@ -380,13 +496,77 @@ APC model lowers barriers to readers only to raise them for authors.
 
 # The three pillars of Open Science {background-color="#fef1da"}
 
-:::{.incremental}
-- Publications
-- Data management
-- Source Code
+::::{.columns .r-fit-text}
+:::{.column width="50%"}
+<img src="images/3_pillars_2.jpg" alt="a minimal graph representing the relationships between three objects linked by their permanent identifiers : publication, dataset and source code">
+:::
+:::{.column width="50%"}
+
+|object | PID |
+|:--:|:--|
+| Publications | DOI 
+| Data management | DOI, ARK |
+| Source Code | SWHID |
+
+:::
+::::
+
+:::{.notes}
+Your CV HAL must contain all your work! (not only your publications)
+
 :::
 
-Your CV HAL must contain all your work! (not only your publications)
+## {background-color="#fef1da"}
+
+
+**Everything (dataset, code, preprint, protocol) may be linked to the open access copy deposited on HAL**
+
+![](images/HAL_links.png)
+
+## Store your dataset in a trusted repository {background-color="#fef1da" .incremental}
+
+- hosted in Europe
+- attributes PID to datasets
+- has a policy aligned with OpenScience
+- is non for profit (avoid FigShare)
+- is curated (recommended)
+
+[Re3data.org](https://re3data.org) directory
+
+:::{.notes}
+
+- Is the repository future-proof? : the chosen repository should have been online for at least 5 years.
+
+- Does the repository's policy restricts the choice of licences that can assigned to your data? : if you cannot share your data under the licence 
+you have chosen, you would better find a better offer elsewhere.
+
+- Are deposits curated by someone? Without a proper curation, your may neglect important metadata in your dataset's description which could have a negative impact on its findability and reusability.
+
+- Do the repository deliver persistent identifiers to datasets (DOI for instance)? : These identifiers are necessary to make your data findable
+
+- Do you have to pay to deposit your data? Some fees are abusive, particularly in the for-profit sector, where some big companies charge costs that bear no relation to the service provided
+
+- Is the repository located in Europe? GDPR compliance is at stake
+:::
+
+## {background-color="#fef1da"}
+
+Should we build decentralized infrastructures to store our data out of Fascists' hands ?
+
+<img src="images/censorship_data.png" alt="a hand is blurring sequences of binaire digits">
+
+:::{.notes}
+In order to purge them from a list of 17 "forbidden words among which LGBT, non binary, transgender and climate change", several federal repositories were forced to cut access to their databases. Employees sometimes managed to back-up copies of theses databases on Internet Archive servers. In order to prevent an authoritarian regime to alter research data should the scientific community build a decentralized and distributed infrastructure to store their data?
+:::
+
+## what about source code {background-color="#fef1da"}
+
+:::{.incremental}
+- source code replicability is a component of study reproducibility
+- You have to build replicable code (as much as possible) and give access to your source code from a forge AND the Software Heritage archive
+- Dont't forget to put an open licence to your code so that other may reuse it for their own experiments
+- **everything should be linked by PID to ensure Findability : your grant, your publication, your data, your code... and yourself**
+:::
 
 # persistent identifiers for researchers {background-color="#fef1da"}
 
@@ -403,7 +583,7 @@ Why should you have an ORCID?
 :::
 ::::
 :::{.notes}
-you only can create your own ORCID and populate it with your works. 
+you, only, are entitled to create your own ORCID and populate it with your works. Don't make it twice! record your identifier and password in your password manager 
 :::
 
 # {background-color="#fef1da"}
@@ -411,41 +591,22 @@ you only can create your own ORCID and populate it with your works.
 **other things you may consider to do in order to be more visible**
 
 :::{.incremental}
-- managing you Google Scholar profile
-- creating accounts on social networks (Twitter, Mastodon, Bluesky ?)
+- managing you Googler Scholar profile
+- creating accounts on social networks (Mastodon or Bluesky)
 - creating a static website to share your thoughts and showcase the diversity of your works
 :::
 
 # {background-color="#fef1da"}
 
-**Twitter : should I go or should I stay?**
+**Why should you use Mastodon to communicate with other researchers?**
 
-::::{.columns .r-fit-text}
-:::{.column width="50%"}
-:::{.incremental}
-:::{style="color: red"}
-**STAY**
-:::
-- all community on one platform
-- Ok, Twitter was better before, but my followers are here
-- friendly user interface (=I don't want to change for another UI)
-:::
-:::
-:::{.column width="50%"}
-:::{.incremental}
-:::{style="color: green"}
-**LEAVE**
-:::
-- Twitter's enshitification by Elon Musk (> nov 2022)
-- breeding ground for climate denialists herds and far-right wing fake news superspreaders
-- Mastodon is open source (no hidden algorithm)
-- Mastodon is decentralized
-- reduced negativity bias (information gain)
-:::
-:::
-::::
+- Mastodon is non-for-profit (no risk of *enshittification*)
+- Fediverse network is fully decentralized (Bluesky is only partialy decentralized)
+- Fediverse is transparent (no hidden algorithm)
+- policies are applied locally on each instance
 
 # personal website
+
 :::{style="color: black"}
 > In essence, the researcher is dispersed: conferences, journal articles, book chapters, blog posts, courses, project management, scientific or editorial committees, etc. It's a job that involves a wide variety of written and oral productions. It's a profession that involves a wide variety of written and oral productions. If only to unify all this, to guarantee an exhaustive point of access, it would be useful to have a portal linking all the digital or analog places of knowledge where we work.
 

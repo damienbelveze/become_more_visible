@@ -37,3 +37,27 @@
 .reveal .footer {
    color: #000 !important;
 }
+
+
+ytable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ytable th, table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+ytable th:first-child, table td:first-child {
+  width: 15%;
+}
+
+ytable th:nth-child(2), table td:nth-child(2) {
+  width: 15%;
+}
+
+ytable th:nth-child(3), table td:nth-child(3) {
+  width: 70%;
+}
