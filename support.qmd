@@ -159,9 +159,13 @@ Side effects aren't known well. There are concerns regarding (in)flexibility, se
 :::{.fragment .fade-up}
 [OSF](https://osf.io/registries) for Psychology, Medicine and Hard Sciences
 :::
+:::{.fragment .fade-up}
+[PCR RR](https://rr.peercommunityin.org) can review your preprint deposited on Zenodo, OSF, etc. and recommend it to friendly journals for publication
+:::
 
 :::{.notes}
 Given that osf.io is dependant of US legislation, should we switch to a pluri-national research infrastructure such as Zenodo see @ScienceMustStep2025
+we will tell more about PCI community later about preprints
 :::
 
 
@@ -209,13 +213,28 @@ Publishers policies on OpenAccess are listed on [SherpaRomeo](https://openpolicy
 :::
 ::::
 :::{.notes}
+
+A rule imposed in 1969 by Franz Ingelfinger, then editor-in-chief of the New England Journal of Medicine, in response to the influx of anonymous editorials published several times in several journals. Ingelfinger imposed that the NEJM should no longer publish any text that had first been published elsewhere. 
+The reason given was to limit duplicate publications designed to distort an author's [[bibliometric]] score, and to offer the public only recent, unpublished content. The real reason is to establish an embargo on publications in order to guarantee the income of the journal's shareholders. 
+
+Translated with DeepL.com (free version)
+
 preprint deposits have become commonplace in the field of scientific publishing and in most of the cases, but not all (some disciplines are still reluctant such as chemistry), publishers have finally accepted that preprints are deposited by the researcher ahead of the publication. 
 
 Sometimes funders require that a preprint should be deposited (see for instance Gates and Melinda Fundation) ; when the publisher refuses, it happens that researchers deposit their preprint after the publication is made, which is a bit tricky, but researchers have to deal with several constraints, sometimes contradictory ones. 
 
 :::
 
+## {background-color="#fef1da"}
 
+**preprint peer review with Peer-Community-In**
+
+![](images/PCI.png)
+
+:::{.notes}
+as stated in their Mastodon profile, "PCI is a free, non-profit, supra-journal platform that reviews and recommends preprints across all research fields"
+from 2021 to July 2024, PCI received 450 submissions in all disciplines and sent 200 recommendations
+:::
 ## {background-color="#fef1da"}
 
 **should you deposit a preprint version of your work ?**
@@ -467,6 +486,23 @@ Most of the time, these models are supported by the university who pays the wage
 :::
 :::
 ::::
+
+:::{.notes}
+
+Predatory journals and publishers are entities that prioritize self-interest at the expense of scholarship and are characterized by false or misleading information, deviation from best editorial and publication practices, a lack of transparency, and/or the use of aggressive and indiscriminate solicitation practices
+
+(Grundniewicz et al.)
+
+The growth of predatory open access publishers is linked to the devopment of open access itself and particularly the Gold road with publication fees. The Gold road does not mean that authors will have to pay APC, but those predators we have mentioned above have made people understand that it was usually the case.
+
+A new market emerged and with it a new genre of crooks.
+
+Exercice (forged) letter sent by a predatory open access publisher
+https://damienbelveze.github.io/predatory_OA/predatory_letter.html 
+
+https://damienbelveze.github.io/predatory_OA/hijacked_journal.html
+
+:::
 
 # how to avoid this trap
 
